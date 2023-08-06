@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Play', sans-serif;
+}
+
+body{
+    background-color:#150436f9;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/*Navbar*/
+nav .nav-wrapper{
+    background-color:#150436f9;
+}
+
+nav .brand-logo{
+    padding: 0 5%;
+}
+
+/*Header*/
+header{
+    background-image: url(images/cover.png);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo{
+    font-weight: bolder;
+    font-size: 100px;
+    color: white;
+    line-height: 80px;
+    font-family: 'Tektur', cursive;
+}
+
+.JiarC{
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    line-height: 40px;
+}
+
+.btn-large{
+    border-radius: 40px;
+    background-color: #CE2158;
+    width: 200px;
+    font-family: 'Tektur', cursive;
+}
+
+.btn-large:hover {
+    background: violet !important;
+}
+
+
+/*shop sections*/
+.shop-section{
+    background-color: #1a0541f9;
+    padding: 200px 100px 60px;
+}
+
+.shop-titulo{
+    font-weight: bolder;
+    font-size: 80px;
+    color: white;
+    line-height: 80px;
+    font-family: 'Tektur', cursive;
+}
+
+/*collection section*/
+.container img{
+    height: 550px;
+}
+
+.container img{
+    border-radius: 8px;
+}
+
+.col-titulo{
+    color: #CE2158;
+    font-weight: 500;
+    font-family: 'Tektur', cursive;
+}
+
+/*review section*/
+.rev-section{
+    color: #ffffff;
+}
+
+.card-panel{
+    border-radius: 20px; 
+    background-color: white;
+}
+
+.rev-titulo{
+    color: #CE2158;
+    font-weight: bold;
+}
+
+
+/*contacts section*/
+.contact-section{
+    background-image: url(images/review.png);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.con-titulo{
+    font-weight: 500;
+    font-family: 'Tektur', cursive;
+}
+
+ul{
+    word-spacing: 20px;
+    color: #ffffff;
+}
+
+.page-footer{
+    background-color: #150436f9;
+}
